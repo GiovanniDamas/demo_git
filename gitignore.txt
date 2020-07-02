@@ -1,0 +1,3 @@
+Bin/Utilisateurs.class
+*.log
+*.class

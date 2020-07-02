@@ -5,13 +5,13 @@
  */
 public class Utilisateur {
 	
-	/*____________________ props __________________*/
+	/*______________________ props ________________________*/
 	private int id;
 	private String nom;
 	private String prenom;
 	
 	
-	/*______________ ctor _____________________*/
+	/*_______________________ ctor ________________________*/
 	
 	public Utilisateur() {
 
@@ -21,6 +21,32 @@ public class Utilisateur {
 
 		this.id = id;
 		this.nom = nom;
+		this.prenom = prenom;
+	}
+	
+	/*___________________ getter/setters __________________*/
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getNom() {
+		return nom;
+	}
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public String getPrenom() {
+		return prenom;
+	}
+
+	public void setPrenom(String prenom) {
 		this.prenom = prenom;
 	}
 	
